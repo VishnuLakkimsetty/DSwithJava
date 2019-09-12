@@ -1,0 +1,2 @@
+https://www.geeksforgeeks.org/array-rotation/  --- Use GCD to rotate array
+https://www.geeksforgeeks.org/block-swap-algorithm-for-array-rotation/  --- Use block swap algorithm

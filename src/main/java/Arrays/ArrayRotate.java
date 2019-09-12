@@ -2,7 +2,7 @@
 
 // Link to this question - https://www.geeksforgeeks.org/array-rotation/
 
-package main.java;
+package main.java.Arrays;
 
 import java.util.Scanner;
 
@@ -29,9 +29,11 @@ public class ArrayRotate {
 		System.out.println("Enter the number by which the array to be rotated :: ");
 
 		int d = sc.nextInt();
+		
+		sc.close();
 
-		if(d>ar.length) {
-			throw new RuntimeException("The number by which the array to be rotated exceeds array size");
+		if(d>=ar.length) {
+			throw new RuntimeException("The number by which the array to be rotated exceeds/equals array size");
 		}
 
 		// Method 1
@@ -54,9 +56,10 @@ public class ArrayRotate {
 		for (int i=0;i<n;i++) {
 			System.out.print(rotatedArraybyLeft[i] + " ");
 		}
+		
 	}
 
-	private static int[] rotateArrayleft(int[] ar, int d, int n) {
+	public static int[] rotateArrayleft(int[] ar, int d, int n) {
 		for(int i=0; i<d;i++) {
 			rotateArrayLeftbyOne(ar, n);
 		}
