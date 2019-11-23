@@ -3,7 +3,7 @@
 
 // Algorithm is like below
 
-/**
+/*
  * Scanned the characters of infix from left to right
  * If it is a operator add to result (like A,B,C,D)
  * 

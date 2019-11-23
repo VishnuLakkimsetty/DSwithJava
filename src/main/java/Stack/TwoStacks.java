@@ -22,6 +22,30 @@ public class TwoStacks {
 		top1 = -1;;
 		top2 = size;
 	}
+	
+	public static void main (String[] args) {
+		TwoStacks ts = new TwoStacks(10);
+		int i;
+		ts.push1(12);
+		ts.push2(13);
+		ts.push1(34);
+		ts.push2(17);
+		ts.push2(46);
+		ts.push1(77);
+		ts.push2(98);
+		ts.push1(39);
+		ts.push1(124);
+		ts.push2(89);
+		
+		ts.printStack();
+		
+		i = ts.pop1();
+		System.out.println(i);
+		i = ts.pop2();
+		System.out.println(i);
+		i = ts.pop2();
+		System.out.println(i);
+	}
 
 	
 	// Push operation
