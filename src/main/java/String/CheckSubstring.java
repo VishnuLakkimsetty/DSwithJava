@@ -1,7 +1,7 @@
 // https://www.geeksforgeeks.org/check-string-substring-another/
 
 /*
- * This is the internal implementation of contains() method of String class.
+ * This is the internal implementation of indexOf() method of String class.
  * 
  * Solution Approach:
  * ********************
@@ -14,6 +14,7 @@ public class CheckSubstring {
 	public static void main(String[] args) {
 		String s1 = "vishnu";
 		String s2 = "sh";
+		System.out.println(s1.indexOf(s2));
 		System.out.println(isSubString(s1,s2));
 	}
 
