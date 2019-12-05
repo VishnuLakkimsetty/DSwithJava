@@ -3,13 +3,13 @@
 package main.java.Trees;
 
 public class BinaryTree {
-	TreeNode root;
+	IntTreeNode root;
 
 	public BinaryTree() {
 		root = null;
 	}
 	
-	int height(TreeNode node) {
+	int height(IntTreeNode node) {
 		if (node == null) {
 			return 0;
 		} else {

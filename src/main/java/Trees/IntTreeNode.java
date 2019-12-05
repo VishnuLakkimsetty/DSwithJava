@@ -2,11 +2,11 @@
 
 package main.java.Trees;
 
-public class TreeNode {
+public class IntTreeNode {
 	int data;
-	TreeNode left, right;
+	IntTreeNode left, right;
 
-	public TreeNode(int data) {
+	public IntTreeNode(int data) {
 		this.data = data;
 		this.left = null;
 		this.right = null;
