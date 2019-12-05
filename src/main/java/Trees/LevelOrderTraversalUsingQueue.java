@@ -25,7 +25,7 @@ public class LevelOrderTraversalUsingQueue {
 		
 		while(!q.isEmpty()) {
 			root=q.peek();
-			System.out.print(q.poll().data+"");
+			System.out.print(q.poll().data+" ");
 			if(root.left!=null)
 				q.add(root.left);
 			
