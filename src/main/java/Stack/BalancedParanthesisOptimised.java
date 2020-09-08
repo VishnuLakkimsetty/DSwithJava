@@ -7,7 +7,7 @@
  * If that value is 0 then the exp is balanced else unbalanced (+ve value represents more open parenthesis and 
  * -ve value represents more closed parenthesis)
  * 
- * This approach will have O(n) time complexity and O(1) space complexity as no extra space is required (i.e, not using Stack)
+ * This approach will have O(n) time complexity and O(n) space complexity (but not using Stack)
  *  
  */
 
